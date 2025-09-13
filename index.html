@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Disaster Preparedness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+        }
+        header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #007BFF;
+            color: white;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            border: none;
+            background: #0056b3;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+            font-family: Times New roman , Times , serif;
+            font-size:20px;
+            font-optical-sizing: auto;
+  font-weight: 300;
+  font-style:normal ;
+  margin: 0;
+
+        }
+        
+.cards {   
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: powderblue;
+            border-radius: 8px;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .steps {
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+        }
+        .steps div {
+            margin-bottom: 20px;
+        }
+        .resources {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .resource-item {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            width: 150px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            cursor: pointer;
+            text-decoration:none;
+            color:inherit;
+            display:block;
+            text-align: center;}
+        .resource-item:hover {
+              background-color: powderblue;
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        
+        @media(max-width: 600px) {
+            .cards, .resources {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>Logo</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Resources</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Stay Prepared. Stay Safe.</h1>
+    <p>Your guide to disaster readiness.</p>
+    <button onclick="alert('Learn more about disaster preparedness!')">Learn More</button>
+</section>
+
+<section class="section">
+    <h2>Disaster Types</h2>
+    <div class="cards">
+       <a href="Buildingfires.html" class="card">
+            <h3>Building Fires </h3>
+            </a>
+       <a href="Cyclones.html" class="card">
+            <h3>Cyclone</h3>
+            </a>
+       <a href="Drought.html" class="card">
+            <h3>Drought</h3>
+            </a>
+        <a href="earthquake.html" class="card">
+            <h3>Earthquake</h3>
+        </a>
+
+        <a href="electricalfires.html" class="card">
+            <h3>Electrical Fires </h3>
+        </a>
+        <a href="MAFL2.html" class="card">
+            <h3>Flood</h3>
+       </a>
+        <a href="forestfire.html" class="card">
+            <h3>Forest Fire </h3>
+       </a>
+      <a href="hurricanes.html" class="card">
+            <h3> Hurricanes</h3>
+        </a>
+       <a href="tsunami.html" class="card">
+            <h3>Tsunami</h3>
+        </a>
+
+      <a href="thunderstorm.html" class="card">
+       <h3> Thunderstorms</h3>
+        </a>
+
+     
+    </div>
+</section>
+
+<section class="section">
+    <h2>Key Features :</h2>
+    <div class="steps">
+        <div><strong>1. Interactive videos and visuals:</strong> Teaches about disasters in an engaging manner.</div>
+        <div><strong>2. Scenarios based quizzes:</strong> Test what you know about disaster response</div>
+        <div><strong>3. Facts vs Myths:</strong> Clear misconceptions and build trust in safety procedures</div>
+<div><strong>4. Real life stories of survivors:</strong> Helps people understand how others faced tough situations,
+ learn from their experiences and feel encouraged and supported during difficult times .</div>
+<div><strong>5. Zoomable maps:</strong> Helps people easily explore disaster-prone areas, see where risks are higher and find nearby emergency shelters and hospitals when needed.</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Resources</h2>
+    <div class="resources">
+        <a href="emergencykit.html" , class="resources">
+            <h3>Emergency Kit</h3>
+        </a>
+        <a href="shelters.html" , class="resources">
+            <h3>Shelter</h3>
+        </a>
+        <a href="emergencycontacts.html" , class="resources">
+            <h3>Emergency Contacts</h3>
+        </a>
+    </div>
+</section>
+
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: rgb(250, 249, 246);
+    }
+
+
+header {
+    background-color:blue;
+    color: white;
+    font-family:Times New roman , Times , Serif;
+    font-size:47px;
+    height=150px;
+    padding:15px;
+    margin-bottom: 33px;}
+
+h4{font-family: Playfair Display, serif;
+  font-size:40px;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style:normal ;
+  margin: 0;
+}
+img  { 
+  margin-bottom: 20px;}
+
+pre  {
+    font-family: Arial, sans-serif;
+    font-size:30px;
+    font-weight:400; 
+    margin-bottom: 35px;}
+li {margin-bottom:-12px;
+    margin-top :-12px;}
+hr{ border:none;
+    border-top:4px solid blue;
+    box-shadow:0 4px 4px rgb(0,0,0,0.15);}
